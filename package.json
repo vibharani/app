@@ -1,0 +1,10 @@
+{
+"devDependencies": {
+"http-server": "^0.6.1",
+"json-server":"*"
+},
+"scripts": {
+"prestart": "npm install",
+"start": "http-server -a 127.0.0.1 -p 8007 -c-1"
+}
+}
